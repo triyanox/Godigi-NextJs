@@ -1,0 +1,28 @@
+html,
+
+body {
+  scroll-behavior: smooth;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  @apply  py-2 px-8  border-opacity-0 transition duration-300 hover:text-purple-900
+}
+
+.btn-purple {
+  @apply bg-purple-900 text-white text-opacity-80 
+}
+.btn-white {
+  @apply bg-white text-black  text-opacity-80 
+}
