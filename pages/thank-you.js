@@ -9,7 +9,7 @@ function Thanks() {
     return (
 
 
-        <Layout pageTitle="Error 500">
+        <Layout pageTitle="Thank You">
 
             <Header />
             <Sucsess />
