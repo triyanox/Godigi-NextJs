@@ -17,7 +17,7 @@ const Header = () => {
                     <a className='inline-flex items-center p-2 mr-4  '>
 
 
-                        <Image src={Logo} alt="" height="40" width="40" />
+                        <Image src={Logo} alt="" height="30" width="30" />
                     </a>
                 </Link>
                 <motion.button whileTap={{ scale: 1.5 }} transition={{ duration: 0.2 }}
