@@ -33,22 +33,23 @@ const Contactform = () => {
                     </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <form name="contactus" method="POST" data-netlify="true" onSubmit="submit" className="flex flex-1 flex-col items-center lg:items-start"   >
+                            <input type="hidden" name="contactus" value="contact" />
                             <div>
                                 <span className="uppercase text-sm text-white opacity-75 ">Full Name</span>
                                 <input name="cname" type="text" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
-                                         required />
+                                    required />
                             </div>
                             <div className="mt-8">
                                 <span className="uppercase text-sm text-white opacity-75 ">Email</span>
-                                <input  name="cemail" type="email" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
-                                       required />
+                                <input name="cemail" type="email" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
+                                    required />
                             </div>
                             <div className="mt-8">
                                 <span className="uppercase text-sm text-white opacity-75 ">Message</span>
                                 <textarea name="cmessage"
-                                    className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"  required></textarea>
+                                    className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline" required></textarea>
                             </div>
-                            
+
                             <div className="mt-8">
                                 <button type="submit"
                                     className="btn btn-white" >
