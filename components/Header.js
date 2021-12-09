@@ -46,22 +46,22 @@ const Header = () => {
                 >
                     <motion.div whileTap={{ scale: 1.2 }} transition={{ duration: 0.2 }} className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
                         <Link href='/'>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-full transition duration-500 ease-in-out text-white text-opacity-80 font-bold items-center justify-center  hover:text-purple-900 '>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-full transition duration-500 ease-in-out text-white  font-bold items-center justify-center  hover:text-purple-900 '>
                                 Home
                             </a>
                         </Link>
                         <Link href='/#services' scrollSmooth>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-full transition duration-500 ease-in-out text-white  text-opacity-80 font-bold items-center justify-center hover:text-purple-900 '>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-full transition duration-500 ease-in-out text-white   font-bold items-center justify-center hover:text-purple-900 '>
                                 Services
                             </a>
                         </Link>
                         <Link href='/#about' scrollSmooth>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-full transition duration-500 ease-in-out text-white text-opacity-80 font-bold items-center justify-center hover:text-purple-900 '>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-full transition duration-500 ease-in-out text-white  font-bold items-center justify-center hover:text-purple-900 '>
                                 About
                             </a>
                         </Link>
                         <Link href='/contact' scrollSmooth>
-                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-full transition duration-500 ease-in-out text-white text-opacity-80 font-bold items-center justify-center hover:text-purple-900 '>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-full transition duration-500 ease-in-out text-white  font-bold items-center justify-center hover:text-purple-900 '>
                                 Contact
                             </a>
                         </Link>
