@@ -32,30 +32,30 @@ const Contactform = () => {
                         <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Contactillustration} alt="Godigi ui/ux" width={500} height={500} priority />
                     </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
-                        <form className="flex flex-1 flex-col items-center lg:items-start" name="contactus" method="POST" data-netlify="true"  >
-                            <div>
-                                <span className="uppercase text-sm text-white opacity-75 ">Full Name</span>
-                                <input className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
-                                     placeholder=""   name="cname" type="text" required />
-                            </div>
-                            <div className="mt-8">
-                                <span className="uppercase text-sm text-white opacity-75 ">Email</span>
-                                <input className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
-                                       name="cemail" type="email" required />
-                            </div>
-                            <div className="mt-8">
-                                <span className="uppercase text-sm text-white opacity-75 ">Message</span>
-                                <textarea
-                                    className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline" name="cmessage" required></textarea>
-                            </div>
-                            
-                            <div className="mt-8">
-                                <button
-                                    className="btn btn-white" type="submit">
-                                    Send Message
-                                </button>
-                            </div>
-                        </form>
+                        <form className="flex flex-1 flex-col items-center lg:items-start" name="contactform" method="POST" data-netlify="true" onSubmit="submit">
+                        
+                            <input id="cname" type="text" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline" name="cname" required>
+                            <label className="uppercase text-sm text-white opacity-75 " for="cname">Name</label>
+
+                    
+                        
+                            <input id="cemail" type="email"  className="w-full bg-white text-gray-900 mt-2 p-3 name="cemail" required>
+                            <label className="uppercase text-sm text-white opacity-75 " for="cemail">Email</label>
+
+                       
+                        
+                            <textarea id="cmessage"  className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline" name="cmessage" required></textarea>
+                            <label className="uppercase text-sm text-white opacity-75 " for="cmessage">Your message</label>
+
+                      
+                        
+
+
+                        
+                            <button type="submit" className="btn btn-white">SUBMIT MESSAGE</button>
+                       
+
+                    </form>
                     </div>
                 </motion.div>
 
