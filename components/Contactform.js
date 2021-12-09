@@ -33,7 +33,7 @@ const Contactform = () => {
                     </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <form name="contactus" method="POST" data-netlify="true" className="flex flex-1 flex-col items-center lg:items-start"   >
-                            <input type="hidden" name="contactus" value="contactus" />
+                            <input type="hidden" name="form-name" value="contactus" />
 
                             <span className="uppercase text-sm text-white opacity-75 ">Full Name</span>
                             <input name="cname" type="text" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
