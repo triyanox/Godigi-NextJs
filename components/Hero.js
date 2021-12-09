@@ -22,7 +22,7 @@ const Hero = () => {
                 },
             }} className="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28  ">
                 <div class="flex flex-1 flex-col items-center lg:items-start  ">
-                    <h2 className=" bg-gradient-to-r from-purple-900 to-purple-500 text-transparent bg-clip-text text-opacity-80  text-3xl md:text-4 lg:text-4xl text-center lg:text-left mb-6">Welcome to Godigi</h2>
+                    <h2 className=" bg-gradient-to-r from-purple-900 to-purple-500 text-transparent bg-clip-text text-opacity-80  text-3xl md:text-4 lg:text-4xl text-center lg:text-left mb-6"   >Welcome to Godigi</h2>
                     <p className="text-white text-opacity-75 text-lg text-center lg:text-left mb-6 ">
                         Create your professional website with Godigi and make your business stand out in the digital market.
                         By creating a professional website you will reach more markets and get more customers !

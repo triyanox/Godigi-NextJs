@@ -18,7 +18,7 @@ const Hostingservices = () => {
                     <p className="mt-4 flex text-lg text-left text-white bg-opacity-60 ">
                         To make your website public on the internet you will need a fast and relible hosting solution, and to give your website the best web experience we are using a fast yet low cost hosting service to make your life easier, we are using Netlify !</p>
 
-                    <div className=" sm:w-2/4 lg:w-5/12 mt-12 mb-8">
+                    <div className=" sm:w-2/4 lg:w-5/12 mt-12 mb-2">
                         <h1 className="text-xl text-left text-white opacity-80">So what exactly is Netlify?
                         </h1>
 

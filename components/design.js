@@ -21,7 +21,7 @@ const Design = () => {
                         Unfortunately, UI/UX is often underestimated and many businesses pay price in terms of user engagement and website traffic. Don’t allow your business to suffer the same fate. Here is why a good UI/UX is essential for your business :
                     </p>
 
-                    <div className=" mt-12 mb-8">
+                    <div className=" mt-12 mb-3">
                         <h1 className="text-xl text-left text-white opacity-80">Great UI/UX Increased Customer Satisfaction:</h1>
 
                     </div>
@@ -29,7 +29,7 @@ const Design = () => {
                     <p className="mt-4 flex text-lg text-left text-white bg-opacity-60 ">
                         A bad UI/UX drives users away from your website or app. It results in nothing but poor customer satisfaction. On the other hand, an interactive UI/UX keeps users hooked and customers satisfied. It also increases the return of investment (ROI). That’s why it’s important to ensure an excellent UI/UX quality.
                     </p>
-                    <div className="  mt-12 mb-8">
+                    <div className="  mt-12 mb-3">
                         <h1 className="text-xl text-left text-white opacity-80">Users Stay Hooked on an Interactive UI/UX:
                         </h1>
 
@@ -41,7 +41,7 @@ const Design = () => {
                         Now, the users’ decision to explore or leave depends entirely on the UI/UX of your website or mobile app. If these users like the UI/UX and get the information they are looking for, they will stay for a couple of minutes or sometimes hours. That’s why your business should emphasize offering useful information along with interactive user experience.
 
                     </p>
-                    <div className=" mt-12 mb-8">
+                    <div className=" mt-12 mb-3">
                         <h1 className="text-xl text-left text-white opacity-80">Good UI/UX Helps To Establish Brand Reputation:</h1>
 
                     </div>
@@ -55,7 +55,7 @@ const Design = () => {
 
 
                     </p>
-                    <div className="  mt-12 mb-8">
+                    <div className="  mt-12 mb-3">
                         <h1 className="text-xl text-left text-white opacity-80">You Get More Traffic on a Great UI/UX:
                         </h1>
 

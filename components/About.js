@@ -7,13 +7,13 @@ const About = () => {
         <section id="about" className="py-20 pt-20 lg:mt-16">
             <div className="relative mt-2 lg:mt-6">
                 <div className="sm:w-2/4 lg:w-5/12 mx-auto px-2 mb-20">
-                    <h1 className="text-3xl text-center  bg-gradient-to-r from-purple-900 to-purple-600 text-transparent bg-clip-text opacity-90">
+                    <motion.h1 whileInView={{ scale: 1.1 }} transition={{ duration: .7 }} className="text-3xl text-center  bg-gradient-to-r from-purple-900 to-purple-600 text-transparent bg-clip-text opacity-90">
                         About Us
-                    </h1>
+                    </motion.h1>
 
                 </div>
                 <div className="container flex flex-col items-center justify-center gap-x-24">
-                    <motion.div whileHover={{ scale: 1.1 }}>
+                    <motion.div whileInView={{ scale: 0.9 }} transition={{ duration: .7 }}>
                         <Image className=" mb-16 w-20 h-20 items-center rounded-full mx-auto" src={Achaq} alt="" width="200" height="200" priority />
                     </motion.div>
 

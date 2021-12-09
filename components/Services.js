@@ -13,9 +13,9 @@ const Services = () => {
 
         <section id="services" className=" py-20 pt-20 lg:mt-24">
             <div className="sm:w-2/4 lg:w-5/12 mx-auto px-2">
-                <h1 className="text-3xl text-center bg-gradient-to-r from-purple-900 to-purple-600 text-transparent bg-clip-text opacity-90">
+                <motion.h1 whileInView={{ scale: 1.1 }} transition={{ duration: .7 }} className="text-3xl text-center bg-gradient-to-r from-purple-900 to-purple-600 text-transparent bg-clip-text opacity-90">
                     Our Services
-                </h1>
+                </motion.h1>
                 <p className="text-center text-white opacity-75 mt-4">
                     We offer great web developement services to satisfy your needs
                 </p>
