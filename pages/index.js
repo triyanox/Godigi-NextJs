@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import About from "../components/About";
 
 
+
 function Index() {
   return (
 
