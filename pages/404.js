@@ -8,7 +8,7 @@ function Custom404() {
     return (
 
 
-        <Layout pageTitle="Error 404">
+        <Layout pageTitle="error 404">
 
             <Header />
             <Errorp />

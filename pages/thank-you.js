@@ -1,17 +1,18 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Footer from "../components/Footer"
-import Errors from "../components/Errors";
+import Sucsess from "../components/Sucsess";
 
 
-function Custom500() {
+
+function Thanks() {
     return (
 
 
-        <Layout pageTitle="error 500">
+        <Layout pageTitle="Error 500">
 
             <Header />
-            <Errors />
+            <Sucsess />
             <Footer />
 
 
@@ -19,4 +20,4 @@ function Custom500() {
 
     )
 }
-export default Custom500;
+export default Thanks;
