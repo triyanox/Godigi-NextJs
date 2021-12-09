@@ -36,12 +36,12 @@ const Contactform = () => {
                             <div>
                                 <span className="uppercase text-sm text-white opacity-75 ">Full Name</span>
                                 <input className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
-                                     placeholder="" id="cname" type="text" name="cname" required />
+                                     placeholder="" id="cname"  name="cname" type="text" required />
                             </div>
                             <div className="mt-8">
                                 <span className="uppercase text-sm text-white opacity-75 ">Email</span>
                                 <input className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
-                                     id="cemail" type="email" name="cemail" required />
+                                     id="cemail"  name="cemail" type="email" required />
                             </div>
                             <div className="mt-8">
                                 <span className="uppercase text-sm text-white opacity-75 ">Message</span>
