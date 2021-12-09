@@ -48,7 +48,7 @@ const Contactform = () => {
                                 <textarea
                                     className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline" id="cmessage" name="cmessage" required></textarea>
                             </div>
-                            <div className="mt-8" data-netlify-recaptcha="true"></div>
+                            
                             <div className="mt-8">
                                 <button
                                     className="btn btn-white" type="submit">
