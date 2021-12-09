@@ -47,7 +47,7 @@ const Contactform = () => {
                             <span className="mt-8 uppercase text-sm text-white opacity-75 ">Message</span>
                             <textarea name="cmessage"
                                 className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline" required></textarea>
-                            <button type="submit"
+                            <button type="primary" htmlType="submit"
                                 className="mt-8 btn btn-white" >
                                 Send Message
                             </button>
