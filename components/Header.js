@@ -14,10 +14,10 @@ const Header = () => {
         <section>
             <nav className=' bg-black flex items-center flex-wrap px-8 p-2 mt-0 fixed w-full z-20 top-0 shadow-md '>
                 <Link href='/'>
-                    <a className='inline-flex items-center p-2 mr-4 opacity-90 '>
+                    <a className='inline-flex items-center p-2 mr-4  '>
 
 
-                        <Image src={Logo} alt="" height="30" width="30" />
+                        <Image src={Logo} alt="" height="40" width="40" />
                     </a>
                 </Link>
                 <motion.button whileTap={{ scale: 1.5 }} transition={{ duration: 0.2 }}
