@@ -1,5 +1,5 @@
 import Image from "next/image";
-import UIUX from "../assets/ui and ux.png"
+import UIUX from "../assets/uiux.png"
 
 const Design = () => {
     return (
