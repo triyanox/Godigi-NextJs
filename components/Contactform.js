@@ -32,7 +32,7 @@ const Contactform = () => {
                         <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Contactillustration} alt="Godigi ui/ux" width={500} height={500} priority />
                     </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
-                        <form className="flex flex-1 flex-col items-center lg:items-start" name="contactform" method="POST" data-netlify="true" action="contact/?success=true" >
+                        <form className="flex flex-1 flex-col items-center lg:items-start" name="contactform" method="POST" data-netlify="true"  >
                             <div>
                                 <span className="uppercase text-sm text-white opacity-75 ">Full Name</span>
                                 <input className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
