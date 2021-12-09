@@ -34,28 +34,24 @@ const Contactform = () => {
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <form name="contactus" method="POST" data-netlify="true" className="flex flex-1 flex-col items-center lg:items-start"   >
                             <input type="hidden" name="contactus" value="contact" />
-                            <div>
-                                <span className="uppercase text-sm text-white opacity-75 ">Full Name</span>
-                                <input name="cname" type="text" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
-                                    required />
-                            </div>
-                            <div className="mt-8">
-                                <span className="uppercase text-sm text-white opacity-75 ">Email</span>
-                                <input name="cemail" type="email" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
-                                    required />
-                            </div>
-                            <div className="mt-8">
-                                <span className="uppercase text-sm text-white opacity-75 ">Message</span>
-                                <textarea name="cmessage"
-                                    className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline" required></textarea>
-                            </div>
 
-                            <div className="mt-8">
-                                <button type="submit"
-                                    className="btn btn-white" >
-                                    Send Message
-                                </button>
-                            </div>
+                            <span className="uppercase text-sm text-white opacity-75 ">Full Name</span>
+                            <input name="cname" type="text" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
+                                required />
+
+
+                            <span className="mt-8 uppercase text-sm text-white opacity-75 ">Email</span>
+                            <input name="cemail" type="email" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
+                                required />
+
+                            <span className="mt-8 uppercase text-sm text-white opacity-75 ">Message</span>
+                            <textarea name="cmessage"
+                                className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline" required></textarea>
+                            <button type="submit"
+                                className="mt-8 btn btn-white" >
+                                Send Message
+                            </button>
+
                         </form>
                     </div>
                 </motion.div>
