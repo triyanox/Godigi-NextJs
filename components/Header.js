@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
-import Logo from "../assets/logo.png"
+import Logo from "../assets/logo.svg"
 import { motion } from 'framer-motion';
 const Header = () => {
     const [active, setActive] = useState(false);
