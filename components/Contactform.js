@@ -32,26 +32,26 @@ const Contactform = () => {
                         <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Contactillustration} alt="Godigi ui/ux" width={500} height={500} priority />
                     </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
-                        <form className="flex flex-1 flex-col items-center lg:items-start" name="contactus" method="POST" data-netlify="true"  >
+                        <form name="contactus" method="POST" data-netlify="true" onSubmit="submit" className="flex flex-1 flex-col items-center lg:items-start"   >
                             <div>
                                 <span className="uppercase text-sm text-white opacity-75 ">Full Name</span>
-                                <input className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
-                                     placeholder=""   name="cname" type="text" required />
+                                <input name="cname" type="text" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
+                                         required />
                             </div>
                             <div className="mt-8">
                                 <span className="uppercase text-sm text-white opacity-75 ">Email</span>
-                                <input className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
-                                       name="cemail" type="email" required />
+                                <input  name="cemail" type="email" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
+                                       required />
                             </div>
                             <div className="mt-8">
                                 <span className="uppercase text-sm text-white opacity-75 ">Message</span>
-                                <textarea
-                                    className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline" name="cmessage" required></textarea>
+                                <textarea name="cmessage"
+                                    className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"  required></textarea>
                             </div>
                             
                             <div className="mt-8">
-                                <button
-                                    className="btn btn-white" type="submit">
+                                <button type="submit"
+                                    className="btn btn-white" >
                                     Send Message
                                 </button>
                             </div>
