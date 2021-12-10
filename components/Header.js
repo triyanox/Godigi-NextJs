@@ -20,7 +20,7 @@ const Header = () => {
                         <Image src={Logo} alt="" height="30" width="30" />
                     </a>
                 </Link>
-                <motion.button whileTap={{ scale: 1.5 }} transition={{ duration: 0.2 }}
+                <motion.button whileTap={{ rotate: 180 }} transition={{ duration: 0.5 }}
                     className=' inline-flex p-3  rounded lg:hidden text-white ml-auto hover:text-white outline-none'
                     onClick={handleClick}
                 >
