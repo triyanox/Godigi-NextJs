@@ -43,7 +43,7 @@ const Services = () => {
             </div>
             <div className="relative mt-20 lg:mt-24">
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    <div whileInView={{ scale: .9 }} transition={{ duration: .7 }} className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
                         <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={React} alt="Godigi Web Developemt Illustration" width={500} height={500} />
                     </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
@@ -65,7 +65,7 @@ const Services = () => {
             </div>
             <div className="relative mt-20 lg:mt-24">
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    <div whileInView={{ scale: .9 }} transition={{ duration: .7 }} className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
                         <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Hosting} alt="Godigi Hosting Illustration" width={500} height={500} />
                     </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
@@ -87,7 +87,7 @@ const Services = () => {
             </div>
             <div className="relative mt-20 lg:mt-24">
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    <div whileInView={{ scale: .9 }} transition={{ duration: .7 }} className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
                         <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Digitalmarketing} alt="Godigi Digital Marketing Iluustration" width={500} height={500} />
                     </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
@@ -108,7 +108,7 @@ const Services = () => {
             </div>
             <div className="relative mt-20 lg:mt-24">
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    <div whileInView={{ scale: .9 }} transition={{ duration: .7 }} className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
                         <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Support} alt="Godigi Support Illustration" width={500} height={500} />
                     </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
