@@ -36,7 +36,7 @@ const Hero = () => {
                 </div>
 
                 <motion.div whileHover={{ scale: 1.1 }} className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
-                    <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Heroillustration} alt="Godigi Workspace" width={500} height={500} priority />
+                    <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Heroillustration} alt="Godigi Workspace Illustration" width={500} height={500} priority />
 
                 </motion.div>
 
