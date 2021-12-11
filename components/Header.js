@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <section>
-            <nav className=' bg-black flex items-center flex-wrap px-8 p-2 mt-0 fixed w-full z-20 top-0 shadow-md '>
+            <nav className=' bg-black flex items-center flex-wrap px-8 p-2 mt-0 fixed w-full z-20 top-0 shadow-md blur-sm'>
                 <Link href='/'>
                     <a className='inline-flex items-center p-2 mr-4  '>
 
@@ -20,7 +20,7 @@ const Header = () => {
                         <Image src={Logo} alt="" height="30" width="30" />
                     </a>
                 </Link>
-                <motion.button whileTap={{ rotate: 180 }} transition={{ duration: 0.5 }}
+                <motion.button whileTap={{ scale: 0.9 }}
                     className=' inline-flex p-3  rounded lg:hidden text-white ml-auto hover:text-white outline-none'
                     onClick={handleClick}
                 >
