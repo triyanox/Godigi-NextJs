@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <section>
-            <nav className=' flex items-center flex-wrap px-8 p-2 mt-0 fixed w-full z-20 top-0 shadow-md blur-2xl'>
+            <nav className=' bg-black flex items-center flex-wrap px-8 p-2 mt-0 fixed w-full z-20 top-0 shadow-md'>
                 <Link href='/'>
                     <a className='inline-flex items-center p-2 mr-4  '>
 
