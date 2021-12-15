@@ -13,6 +13,7 @@ class MyDocument extends Document {
                     <meta charSet="UTF-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+                    <meta name="theme-color" content="Black" />
                     <meta name="description" content="Web Developement And Digital Marketing Agency In Morocco" />
                     <meta name="author" content="Godigi" />
                     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
