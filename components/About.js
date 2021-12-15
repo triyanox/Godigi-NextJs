@@ -25,7 +25,7 @@ const About = () => {
                     <div className="mt-4 flex font-medium text-center  bg-gradient-to-r from-pink-500 to-purple-700 text-transparent bg-clip-text">
                         Mohamed Achaq
                     </div>
-                    <div className="mt-2 flex font-medium  text-centre text-gray-500">
+                    <div className="mt-2 flex font-medium  text-centre text-white opacity-75">
                         Developer, Morocco
                     </div>
 
