@@ -8,6 +8,8 @@ const Layout = (props) => {
         <div>
             <Head>
                 <html lang="en" />
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <title>{props.pageTitle}</title>
                 <meta name="description" content="Web Developement And Digital Marketing Agency In Morocco" />
                 <meta name="author" content="Godigi" />
