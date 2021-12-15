@@ -2,10 +2,16 @@ import '../styles/globals.css'
 import 'tailwindcss/tailwind.css'
 import { motion } from 'framer-motion'
 import NextNProgress from "nextjs-progressbar";
+import { useEffect } from 'react';
+import TagManager from 'react-gtm-module';
+
 
 
 
 function MyApp({ Component, pageProps, router }) {
+  useEffect(() => {
+    TagManager.initialize({ gtmId: 'GTM-WS8BWZG' });
+  }, []);
 
   return (
     <>
