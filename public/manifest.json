@@ -1,6 +1,7 @@
 {
     "name": "Godigi",
     "short_name": "Godigi",
+    "start_url": "https://godigi.website",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
