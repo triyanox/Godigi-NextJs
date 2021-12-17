@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <div className="container flex flex-col items-center justify-center gap-x-24">
                     <motion.div whileInView={{ scale: 0.9 }} transition={{ duration: .7 }}>
-                        <Image className=" mb-16 w-20 h-20 items-center rounded-full mx-auto" src={Achaq} alt="" width="200" height="200" priority />
+                        <Image className=" mb-16 w-20 h-20 items-center rounded-full mx-auto select-none" src={Achaq} alt="" width="200" height="200" priority />
                     </motion.div>
 
                     <p className="mt-4 px-4 flex text-lg text-center text-white bg-opacity-60 ">

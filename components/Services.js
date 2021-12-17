@@ -22,9 +22,9 @@ const Services = () => {
             </div>
             <div className="relative mt-20 lg:mt-24 ">
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    <motion.div whileInView={{ sacle: .9 }} className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={UiandUxIllustration} alt="Godigi UI/UX Illustartion" width={500} height={500} priority />
-                    </motion.div>
+                    <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full select-none  " src={UiandUxIllustration} alt="Godigi UI/UX Illustartion" width={500} height={500} priority />
+                    </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <h1 className="text-3xl  bg-gradient-to-r from-purple-800 to-purple-500 text-transparent bg-clip-text opacity-80">
                             Modern UI/UX Design
@@ -43,9 +43,9 @@ const Services = () => {
             </div>
             <div className="relative mt-20 lg:mt-24">
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    <motion.div whileInView={{ sacle: .9 }} className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={React} alt="Godigi Web Developemt Illustration" width={500} height={500} priority />
-                    </motion.div>
+                    <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  select-none " src={React} alt="Godigi Web Developemt Illustration" width={500} height={500} priority />
+                    </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <h1 className="text-3xl  bg-gradient-to-r from-purple-800 to-purple-500 text-transparent bg-clip-text opacity-80">
                             Modern Coding
@@ -65,9 +65,9 @@ const Services = () => {
             </div>
             <div className="relative mt-20 lg:mt-24">
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    <motion.div whileInView={{ sacle: .9 }} className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Hosting} alt="Godigi Hosting Illustration" width={500} height={500} priority />
-                    </motion.div>
+                    <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  select-none " src={Hosting} alt="Godigi Hosting Illustration" width={500} height={500} priority />
+                    </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <h1 className="text-3xl  bg-gradient-to-r from-purple-800 to-purple-500 text-transparent bg-clip-text opacity-80">
                             Fast And Relible Hosting Solutions
@@ -87,9 +87,9 @@ const Services = () => {
             </div>
             <div className="relative mt-20 lg:mt-24">
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    <motion.div whileInView={{ sacle: .9 }} className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Digitalmarketing} alt="Godigi Digital Marketing Iluustration" width={500} height={500} priority />
-                    </motion.div>
+                    <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full select-none " src={Digitalmarketing} alt="Godigi Digital Marketing Iluustration" width={500} height={500} priority />
+                    </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <h1 className="text-3xl  bg-gradient-to-r from-purple-800 to-purple-500 text-transparent bg-clip-text opacity-80">
                             Digital Marketing To Backup Your Business
@@ -108,9 +108,9 @@ const Services = () => {
             </div>
             <div className="relative mt-20 lg:mt-24">
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    <motion.div whileInView={{ sacle: .9 }} className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Support} alt="Godigi Support Illustration" width={500} height={500} priority />
-                    </motion.div>
+                    <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full select-none " src={Support} alt="Godigi Support Illustration" width={500} height={500} priority />
+                    </div>
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <h1 className="text-3xl  bg-gradient-to-r from-purple-800 to-purple-500 text-transparent bg-clip-text opacity-80">
                             Great Support And Fast Delevery
