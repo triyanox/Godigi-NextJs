@@ -11,10 +11,10 @@ const Header = () => {
     };
 
     return (
-        <section>
-            <nav className=' bg-black flex items-center flex-wrap px-8 p-2 mt-0 fixed w-full z-20 top-0 shadow-md'>
+        <section className='fixed w-full z-20 top-0'>
+            <nav className=' flex items-center flex-wrap px-8 p-3 mt-0   bg-black'>
                 <Link href='/'>
-                    <a className='logo-icon inline-flex items-center p-2 mr-4  '>
+                    <a className='logo-icon inline-flex items-center p-2 mr-4 w-10 h-10 '>
 
 
                         <Image src={Logo} alt="" height="30" width="30" />
