@@ -30,7 +30,7 @@ const Contactform = () => {
                 }} className="container flex flex-col lg:flex-row  items-center justify-center gap-x-8">
 
                     <div className="flex  flex-col items-center mx-auto px-8">
-                        <form name="contactus" method="POST" data-netlify="true" className="  flex  flex-col items-center "   >
+                        <form name="contactus" method="POST" data-netlify="true" action="/thank-you" className="  flex  flex-col items-center "   >
                             <input type="hidden" name="form-name" value="contactus" />
 
 
