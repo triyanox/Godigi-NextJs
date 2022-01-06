@@ -22,7 +22,7 @@ const Layout = (props) => {
                 <meta property="og:title" content={props.pageTitle} key="ogtitle" />
                 <meta property="og:description" content={props.description} key="ogdesc" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
             </Head>
             <div>

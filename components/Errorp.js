@@ -7,7 +7,7 @@ const Errorp = () => {
         <section id="404" className="py-20 pt-20 px-10 lg:mt-16">
             <div className="relative mt-2 lg:mt-6">
                 <div className="sm:w-2/4 lg:w-5/12 mx-auto px-2 mb-20">
-                    <h1 className="text-3xl text-center text-white opacity-80">
+                    <h1 className='text-3xl text-center text-white opacity-80'>
                         Mmmmm It seems like you're in the wrong place .....!
                     </h1>
 
