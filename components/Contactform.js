@@ -14,7 +14,7 @@ const Contactform = () => {
                     Fill the following form to get in touch with us
                 </p>
             </div>
-            <div className="relative mt-16 lg:mt-24">
+            <div className="relative mt-16 lg:mt-24 ">
                 <motion.div initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
@@ -27,36 +27,45 @@ const Contactform = () => {
                             delay: .4
                         }
                     },
-                }} className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
-                    <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                        <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full  " src={Contactillustration} alt="Godigi ui/ux" width={500} height={500} priority />
-                    </div>
-                    <div className="flex flex-1 flex-col items-center lg:items-start">
-                        <form name="contactus" method="POST" action="/thank-you" data-netlify="true" className="flex flex-1 flex-col items-center lg:items-start"   >
+                }} className="container flex flex-col lg:flex-row  items-center justify-center gap-x-8">
+
+                    <div className="flex  flex-col items-center mx-auto px-8">
+                        <form name="contactus" method="POST" data-netlify="true" className="  flex  flex-col items-center "   >
                             <input type="hidden" name="form-name" value="contactus" />
 
-                            <span className="uppercase text-sm text-white opacity-75 ">Full Name</span>
-                            <input name="cname" type="text" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
+
+
+
+                            <span className="uppercase text-center mx-auto text-white opacity-75  ">Full Name</span>
+                            <input name="cname" type="text" className="w-full text-3xl h-12  text-black  mt-2 p-2 focus:outline-none focus:shadow-outline  shadow-xl rounded  "
                                 required />
 
 
-                            <span className="mt-8 uppercase text-sm text-white opacity-75 ">Email</span>
-                            <input name="cemail" type="email" className="w-full bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline"
+
+
+                            <span className="mt-8 uppercase text-center mx-auto  text-white opacity-75  ">Email</span>
+                            <input name="cemail" type="email" className="w-full text-3xl   h-12 text-black mt-2 p-2  focus:outline-none focus:shadow-outline  shadow-xl rounded "
                                 required />
 
-                            <span className="mt-8 uppercase text-sm text-white opacity-75 ">Message</span>
+
+
+
+
+                            <span className="mt-8 uppercase text-center mx-auto  text-white opacity-75 dark:text-bright-gray-50   ">Message</span>
                             <textarea name="cmessage"
-                                className="w-full h-28 bg-white text-gray-900 mt-2 p-3  focus:outline-none focus:shadow-outline" required></textarea>
-                            <button type="primary" htmlType="submit"
-                                className="mt-8 btn btn-white" >
-                                Send Message
-                            </button>
+                                className="w-full text-3xl h-28   text-black   mt-2 p-2  focus:outline-none focus:shadow-outline   shadow-xl rounded " required></textarea>
 
+
+
+                            <button type="primary" htmlType="submit"
+                                className="mt-8 btn btn-white  mx-auto shadow-xl " >
+                                Send A Message
+                            </button>
                         </form>
                     </div>
                 </motion.div>
 
-            </div>
+            </div >
 
 
         </section >

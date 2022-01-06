@@ -35,7 +35,7 @@ const digitalmarketing = () => {
                                     </svg>
                                 </motion.div>
                                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                    <h2 class="font-medium title-font text-white mb-1 text-xl">Branding: Be Everywhere</h2>
+                                    <h2 class="font-medium title-font text-purple-500 mb-1 text-xl">Branding: Be Everywhere</h2>
                                     <p class="leading-relaxed text-white opacity-80">Branding, the best way to make your brand stand out of the crowd, and make it look more professional, and give a step ahead your comptition !</p>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@ const digitalmarketing = () => {
                                     </svg>
                                 </motion.div>
                                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                    <h2 class="font-medium title-font text-white mb-1 text-xl">Social Media Management: Be In The Top</h2>
+                                    <h2 class="font-medium title-font text-purple-500 mb-1 text-xl">Social Media Management: Be In The Top</h2>
                                     <p class="leading-relaxed text-white opacity-80">Your social media profiles help your brand to grow fast and efficient in the digital community !</p>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@ const digitalmarketing = () => {
                                     </svg>
                                 </motion.div>
                                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                    <h2 class="font-medium title-font text-white mb-1 text-xl">Digital Marketing: Reach More</h2>
+                                    <h2 class="font-medium title-font text-purple-500 mb-1 text-xl">Digital Marketing: Reach More</h2>
                                     <p class="leading-relaxed text-white opacity-80">During this Covid-19 situation, the best way to bring traffic and drive more customers to your business is digital marketing, and by using all the available to tools, we will give your brand more exposure and reach more clients for you !</p>
                                 </div>
                             </div>

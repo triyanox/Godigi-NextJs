@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 const Hero = () => {
     return (
 
-        <section id="home" className="relative pt-18 ">
+        <section id="home" className="relative pt-18  ">
 
             <motion.div initial="hidden" animate="visible" variants={{
                 hidden: {
@@ -35,10 +35,12 @@ const Hero = () => {
 
                 </div>
 
-                <motion.div whileHover={{ scale: 1.1 }} className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
-                    <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full select-none  " src={Heroillustration} alt="Godigi Workspace Illustration" width={500} height={500} priority />
+                <div className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                    <div className="rounded-full mt-16 px-40 py-40  bg-gradient-to-r from-purple-900 to-purple-500 z-0 absolute "></div>
+                    <Image className="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4 md:w-full md:h-full overflow-visible z-10 " src={Heroillustration} alt="Godigi Workspace Illustration" width={500} height={500} priority />
 
-                </motion.div>
+
+                </div>
 
             </motion.div>
         </section >

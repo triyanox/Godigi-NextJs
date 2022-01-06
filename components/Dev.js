@@ -18,28 +18,28 @@ const Dev = () => {
 
 
                     <div className=" sm:w-2/4 lg:w-5/12 mt-12 mb-3">
-                        <h1 className="text-xl text-left text-white opacity-80">NextJS : What is it and why do we use it?
+                        <h1 className="text-xl text-left text-purple-500">NextJS : What is it and why do we use it?
                         </h1>
 
                     </div>
 
-                    <p className="mt-4 flex text-lg text-left text-white bg-opacity-60 ">
+                    <p className="mt-2 flex text-lg text-left text-white text-opacity-75 ">
                         As a digital design and build agency, we have been using Node.js since its very inception. Having identified it as a game changer for us, it has been pivotal in allowing us to deliver highly scalable, data intensive, real time back-end services to power the websites and apps for many of our clients including The Times, Riot Games, The Wall Street Journal and many more. A laser-like focus on speed and performance has always been a guiding star for us. When React JS came along, it was a perfect fit since we were naturally using JavaScript on the front and back-end of our clients’ applications. So as React JS has developed and become almost de facto for building website front-ends, our heads were turned by the benefits of Next.js.                    </p>
 
 
 
                     <div className=" sm:w-2/4 lg:w-5/12 mt-12 mb-3">
-                        <h1 className="text-xl text-left text-white opacity-80">So first up, what is NextJS?
+                        <h1 className="text-xl text-left text-purple-500">So first up, what is NextJS?
                         </h1>
 
                     </div>
 
-                    <p className="mt-4 flex text-lg text-left text-white bg-opacity-60 ">
+                    <p className="mt-2 flex text-lg text-left text-white text-opacity-75 ">
                         Quite simply, Next.js is a React framework for developing single page Javascript applications. The benefits of this framework are numerous, both for our clients’ applications as well as for our development team. The more we, as users, interact digitally, the more impatient we become as our expectations are not met by websites and apps that fail to load within milliseconds. Technology decisions play a large part in being able to deliver highly performant, scalable, successful applications and as such, we have started using Next.js for a number of reasons; for the most part related to speed and performance. So what are the benefits specifically?
 
                     </p>
                     <div className=" sm:w-2/4 lg:w-5/12  mt-12 mb-2">
-                        <h1 className="text-xl text-left text-white opacity-80">The Benifits of using NextJS :
+                        <h1 className="text-xl text-left text-purple-500">The Benifits of using NextJS :
                         </h1>
 
                     </div>
@@ -62,7 +62,7 @@ const Dev = () => {
                             </svg>
                         </motion.div>
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-white mb-1 text-xl">Development Process</h2>
+                            <h2 class="font-medium title-font text-purple-500 mb-1 text-xl">Development Process</h2>
                             <p class="leading-relaxed text-white">Improved development process = cost and time benefit to our clients.</p>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ const Dev = () => {
                             </svg>
                         </motion.div>
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-white mb-1 text-xl">Performance</h2>
+                            <h2 class="font-medium title-font text-purple-500 mb-1 text-xl">Performance</h2>
                             <p class="leading-relaxed text-white">Improved performance = faster applications.</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ const Dev = () => {
                             </svg>
                         </motion.div>
                         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 class="font-medium title-font text-white mb-1 text-xl">Seo</h2>
+                            <h2 class="font-medium title-font text-purple-500 mb-1 text-xl">Seo</h2>
                             <p class="leading-relaxed text-white">Improved SEO = more indexable, SEO friendly applications.</p>
                         </div>
                     </div>

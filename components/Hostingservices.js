@@ -15,16 +15,16 @@ const Hostingservices = () => {
                     <Image className=" mb-16  items-center  mx-auto" src={HostingImage} alt="" width="1460" height="730" priority />
 
 
-                    <p className="mt-4 flex text-lg text-left text-white bg-opacity-60 ">
+                    <p className="mt-4  text-lg text-left text-white text-opacity-90 ">
                         To make your website public on the internet you will need a fast and relible hosting solution, and to give your website the best web experience we are using a fast yet low cost hosting service to make your life easier, we are using Netlify !</p>
 
-                    <div className=" sm:w-2/4 lg:w-5/12 mt-12 mb-2">
-                        <h1 className="text-xl text-left text-white opacity-80">So what exactly is Netlify?
-                        </h1>
 
-                    </div>
+                    <h1 className="mt-8 text-xl text-center text-purple-500">So what exactly is Netlify?
+                    </h1>
 
-                    <p className="mt-4 flex text-lg text-left text-white bg-opacity-60 ">
+
+
+                    <p className="mt-2  text-lg text-left text-white text-opacity-75 ">
                         A platform that offers cloud hosting and
                         serverless backend services for static websites.
                         Netlify is everything you need to build fast, modern websites: continuous deployment, serverless functions, and so much more.

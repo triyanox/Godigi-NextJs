@@ -16,12 +16,12 @@ const supportteam = () => {
                     <Image className=" mb-16  items-center  mx-auto" src={supportimage} alt="support image" width="1440" height="720" priority />
 
 
-                    <p className="mt-4 flex text-lg text-center text-white bg-opacity-60 ">
+                    <p className="mt-8 flex text-lg text-center text-white text-opacity-75 ">
                         We provide a great support across all services to make your life easier and draw a great yet efficient way for your business !                    </p>
 
 
 
-                    <p className="mt-4 flex text-lg text-center text-white bg-opacity-60 ">
+                    <p className="mt-2 flex text-lg text-center text-white text-opacity-75 ">
                         If you need any support or even ask a question we provide those contact methods :</p>
                     <div className="flex items-center   mt-12 mb-8">
                         <Link href="/contact" passHref>

@@ -4,7 +4,7 @@ import Hero from "../components/Hero"
 import Services from "../components/Services";
 import Footer from "../components/Footer"
 import About from "../components/About";
-
+import CTA from "../components/CTA";
 
 
 function Index() {
@@ -17,6 +17,7 @@ function Index() {
       <Hero />
       <Services />
       <About />
+      <CTA />
       <Footer />
 
 

@@ -2,23 +2,19 @@ import Link from "next/link";
 const footer = () => {
     return (
 
-        <footer class="py-20 pt-20 lg:mt-24">
-            <div class="container flex flex-col md:flex-row items-center">
-                <div class="flex flex-1 flex-wrap items-center justify-center md:justify-centre gap-12">
 
-                    <ul class="flex text-white uppercase gap-12 text-xs">
-                        <Link href='/privacy-policy'>
-                            <li class="cursor-pointer">Privacy Policy</li>
-                        </Link>
-                        <Link href='/terms-conditions'>
-                            <li class="cursor-pointer">Terms And Conditions</li>
-                        </Link>
-                    </ul>
-                </div>
+        <footer className="text-white mx-auto body-font dark:text-bright-gray-50 ">
+            <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col justify-center">
+                <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
 
+                    <span className="ml-3 text-xl text-white">Godigi</span>
+                </a>
+                <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Godigi</p>
             </div>
-        </footer>
 
+
+
+        </footer >
 
 
 

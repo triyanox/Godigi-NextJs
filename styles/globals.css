@@ -1,6 +1,7 @@
 html,
 
 body {
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   background: #000;
   padding: 0;
@@ -18,12 +19,14 @@ a {
 }
 
 .btn {
-  @apply  py-2 px-8  border-opacity-0 transition duration-300 hover:text-purple-900
+  @apply  py-2 px-8  border-opacity-0 transition duration-300 hover:text-purple-900 rounded-md
 }
 
 .btn-purple {
   @apply bg-purple-900 text-white text-opacity-80 
 }
 .btn-white {
-  @apply bg-white text-black  text-opacity-80 
+  @apply bg-white text-black  text-opacity-80 rounded-md
 }
+
+
