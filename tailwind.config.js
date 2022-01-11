@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'display': ['Karla', 'sans-serif']
+      'Karla': ['Karla']
     },
     extend: {},
     container: {
