@@ -26,11 +26,11 @@ const Layout = (props) => {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet" />
             </Head>
-            <body>
-                <div>
-                    {props.children}
-                </div>
-            </body>
+
+            <div className=' font-["Karla"]'>
+                {props.children}
+            </div>
+
         </div>
     )
 }
