@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <div className="container flex flex-col items-center justify-center gap-x-24">
                     <div>
-                        <Image className=" mb-4 w-20 h-20 items-center rounded-full mx-auto select-none" src={Achaq} alt="" width="200" height="200" quality={100} />
+                        <Image className=" mb-2 w-20 h-20 items-center rounded-full mx-auto select-none" src={Achaq} alt="" width="200" height="200" quality={100} />
                     </div>
                     <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center items-center  mt-2">
                         <p className="mt-6 px-8 flex text-lg text-center text-white opacity-75">Mohamed Achaq, an entrepreneur, graphic designer, Web developer and music producer from Morocco.he established Godigi as Digital Marketing agency in collaboration with some talented freelencers to bring the full package of digital marketing to small and medium businesses, to help them grow in the digital market and reach more customers !</p>
