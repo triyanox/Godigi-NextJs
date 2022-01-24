@@ -19,7 +19,7 @@ const About = () => {
                     <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center items-center  mt-2">
                         <p className="mt-6 px-8 flex text-lg text-center text-white opacity-75">Mohamed Achaq, an entrepreneur, graphic designer, Web developer and music producer from Morocco.he established Godigi as Digital Marketing agency in collaboration with some talented freelencers to bring the full package of digital marketing to small and medium businesses, to help them grow in the digital market and reach more customers !</p>
 
-                        <p className="mt-4 mx-auto  font-medium text-center  bg-gradient-to-r from-purple-900 to-purple-600 text-transparent bg-clip-text">
+                        <p className=" mx-auto  font-medium text-center  bg-gradient-to-r from-purple-900 to-purple-600 text-transparent bg-clip-text">
                             Mohamed Achaq
                         </p>
                         <p className="mt-2 mx-auto  font-medium  text-center text-white opacity-60">
